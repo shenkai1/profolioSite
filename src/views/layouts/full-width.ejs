@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- NAME:      SHENKAI FENG -->
+    <!-- STUDENT #: 301184162-->
+    <!-- COURSE:    COM229-->
+    <!-- LAB:       LAB1-->
+    <!-- DATE:      2021/09/27 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= title %>></title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+        <!--Nav Bar -->
+        <div class="glass-view">
+          <div class="header">
+            <img src="/img/logo.png" alt="">
+            <div class="nav">
+              <a class="nav-item active" aria-current="page" href="/">Home</a>
+              <a class="nav-item" href="/about">About</a> 
+              <a class="nav-item" href="/product">Product</a>        
+              <a class="nav-item " href="/service">Service</a>      
+              <a class="nav-item " href="/contact">Contact</a>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="content">
+              <main><%- body %></main>
+            </div>
+            <div class="img-container">
+                <img src="/img/randomthoughts.png" alt="randomthoughts">
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+
+     <div class="footer-content">
+       <h5>&copy; 2021 Shenkai</h5>
+       <footer>Profolio ExpressJS Site</footer>
+     </div>
+
+  </body>
+<script src="/js/jquery.js"></script>
+</html>

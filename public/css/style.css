@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0 ;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(128, 128, 128);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Roboto','sans-serif';
+}
+
+.glass-view{
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    height: 90%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0 20PX;
+}
+
+.content h2{
+    font-size: 2rem;
+}
+
+.content p{
+    max-width: 500px;
+}
+
+.content button{
+    padding: 10px 30px;
+    font-size: 1rem;
+    border:0;
+    border-radius: 10px;
+    background-color: #6c63ff;
+    color: white;
+    margin-top: 30px;
+}
+
+.img-container{
+    max-width: 350px;
+}
+
+.img-container img{
+    width:100%;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.aboutme{
+    max-width: 150px;
+}
+
+.about-container{
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+}
+
+.about-text-container{
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.about-hobbies-container{
+    margin: 0 5px 20px 5px;
+    font-size: 0.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.product-container{
+    margin: 0 20px;
+    padding: 10px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.product-item{
+    max-width: 200px;
+    margin:0 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-item p{
+    margin-top: 10px;
+}
+
+.content-container{
+    padding: 10px;
+    margin:0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0.9rem;
+}
+
+.contact-container{
+    margin:0 20px;
+    padding: 10px;
+}
+
+.service-item{
+    max-width: 200px;
+    margin:0 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-item p{
+    margin-top: 10px;
+}
+
+.service-container{
+    margin: 0 20px;
+    padding: 10px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
